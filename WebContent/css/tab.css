@@ -1,0 +1,53 @@
+ul{  
+      
+     list-style:none;  
+      
+    }  
+       
+
+     #tabs0 {  
+       
+      
+    }  
+      
+    .menu0{  
+      
+      
+    }  
+      
+    .menu0 li{  
+      
+     display:block;  
+      
+     float: left;  
+      
+     padding: 4px 0;  
+      
+     width:100px;  
+      
+     text-align: center;  
+      
+     cursor:pointer;  
+      
+     background: #FFFFff;  
+      
+    }  
+      
+    .menu0 li.hover{  
+      
+     background:rgb(47,78,124);
+     color:#FFF;
+      
+    }  
+      
+    #main0 ul{  
+      
+     display: none;  
+      
+    }  
+      
+    #main0 ul.block{  
+      
+     display: block;  
+      
+    }  

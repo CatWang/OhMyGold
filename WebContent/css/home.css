@@ -1,0 +1,281 @@
+.login {
+	height:25px;
+	text-align:right;
+	margin:15px 15px 0 0;
+	font-family:'microsoft yahei';
+}
+
+.login ul {
+	float:right;
+	width:200px;
+	margin:0 auto;
+	}
+	
+.login li {
+	float:right;
+	height:25px;
+	position:relative;
+	}
+	
+.login a {
+	float:right;
+	text-decoration:none;
+	height:25px;
+	line-height:18px;
+	margin-left: 15px;
+	font-size:14px;
+	color:#CFC4AC;
+	outline:none;
+	position:relative;
+	}
+	
+.login a:hover {
+	text-decoration:none;
+	font-size:15px;
+	color:#fff;
+	font-weight:bolder;
+	}
+	
+.weather {
+	float:left;
+	margin: 15px 15px 15px 120px;
+	width:300px;
+	height: 390px;
+	background: rgb(47,78,124);
+}
+	
+.news {
+	float:left;
+	margin: 15px 70px 15px 15px;
+	width: 700px;
+	height: 390px;
+	background: rgb(47,78,124);
+}
+
+.root {
+	clear: both;
+	height:20px;
+    background:rgb(47,78,124)
+	text-align:center;
+	margin:10px 0 8px 0;
+	font-family:'microsoft yahei';
+}
+
+.root ul {
+	float:;
+	width:300px;
+	margin:0 auto;
+	}
+	
+.root li {
+	float:left;
+	height:20px;
+	position:relative;
+	}
+	
+.root a {
+	display:block;
+	float:right;
+	text-decoration:none;
+	height:20px;
+	line-height:18px;
+	margin-left: 20px;
+	font-size:12px;
+	color:rgb(47,78,124);
+	outline:none;
+	position:relative;
+	}
+	
+.menu {
+	float:left;
+	margin: 15px 15px 15px 170px;
+	width:250px;
+	height: 700px;
+	background: rgb(47,78,124);
+	border-radius: 5px;
+}
+.menu2 {
+	float:left;
+	margin: 15px 15px 15px 170px;
+	width:250px;
+	height: 750px;
+	background: #6C5046;
+}
+	
+.info {
+	float:left;
+	margin: 15px 60px 15px 15px;
+	width: 750px;
+	height: 700px;
+	background: #6C5046;
+}
+
+#slider {
+	width: 700px;
+	height: 390px;
+}
+
+#slider .control-links {
+	margin-top: -15px;
+}
+
+.menu a:link,.info a:link,.menu2 a:link{ 
+	font-family:'microsoft yahei';
+	color:#fff;
+	font-size:14px;
+	text-decoration:none; 
+	text-align:center;
+} 
+/*
+正常情况出现
+*/
+.menu a:visited,.info a:visited,.menu2 a:visited{
+	font-family:'microsoft yahei';
+	font-size:16px;
+	color:#fff;
+	text-decoration:none; 
+	text-align:center;
+} 
+/*
+鼠标在上出现
+*/
+.menu a:hover,.info a:hover,.menu2 a:hover{ 
+	font-family:'microsoft yahei';
+	font-size:16px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-decoration:none; 
+	text-align:center;
+} 
+
+/*
+按下之后出现
+*/
+.menu a:active,.info a:active,.menu2 a:active { 
+	font-family:'microsoft yahei';
+	font-size:16px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-decoration:none;
+	text-align:center; 
+}
+
+.bianji a:link{ 
+	font-family:'microsoft yahei';
+	text-decoration:none; 
+	text-align:center;
+} 
+/*
+正常情况出现
+*/
+.bianji a:visited{
+	font-family:'microsoft yahei';
+	text-decoration:none; 
+	text-align:center;
+} 
+/*
+鼠标在上出现
+*/
+.bianji a:hover{ 
+	font-family:'microsoft yahei';
+	text-decoration:none; 
+	text-align:center;
+} 
+
+/*
+按下之后出现
+*/
+.bianji a:active { 
+	font-family:'microsoft yahei';
+	text-decoration:none;
+	text-align:center; 
+}
+
+.img {
+	margin-top:30px;
+	margin-bottom:30px;
+	width:100px;
+	height:100px;
+	-moz-border-radius:5px;  
+    -webkit-border-radius:5px;  
+    border-radius:5px
+}
+
+.bordar{
+	margin-top:50px;
+	margin-left:40px;
+	border-style:dashed;
+	border-color:#CFC4AC;
+	border-width:1px;
+	width:90%;
+	height:180px;
+	font-family:'microsoft yahei';
+	color:#CFC4AC; 
+	text-decoration:none; 
+	text-align:center;
+}
+
+.bbb {
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.fff {
+	margin:320px 0 0 250px;
+	}
+	
+.fontt {
+	color:#000;
+	}
+.active2 { 
+	font-family:'microsoft yahei';
+	font-size:16px;
+	font-weight:bolder;
+	color:#FFF;
+	text-decoration:none; 
+	text-align:center;
+}
+
+.logo {
+	background:rgb(47,78,124);
+	margin: 0;
+	height: 120px;
+	padding: 12px 10px;
+}
+
+.logo_title {
+	margin: 0 10px 10px 195px;
+}
+
+.cloud {
+	float:left;
+	width:90px;
+	margin:13px auto;
+	}
+	
+.logo img.title {
+	float:left;
+	height:70px;
+	margin: 25px 0 0 70px;
+	position:relative;
+	}
+
+.weather_pic {
+	margin: 40px auto 40px auto;
+	text-align: center;
+}
+
+.weather_describ {
+	font-family:'microsoft yahei';
+	color:#FFFFFF;
+	text-align:center; 
+	margin: 10px auto;
+}
+
+.weather_head {
+		font-weight:bold;
+	font-size: 24px;
+}
+
+.weather_body {
+	font-size: 18px;
+}

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<package name="weather" extends="struts-default">
+		<action name="RegisterPersonAction" class="weath.action.RegisterCompanyAction">
+			<result name="success">
+				index.jsp
+			</result>
+			<result name="input">
+				registerperson.jsp
+			</result>
+		</action>
+
+
+		<action name="RegisterCompanyAction" class="weath.action.RegisterCompanyAction">
+			<result name="success">
+				index.jsp
+			</result>
+			<result name="input">
+				registercompany.jsp
+			</result>
+		</action>
+		
+
+		<action name="LoginAction" class="weath.action.LoginAction">
+			<result name="success">
+				index_login.jsp
+			</result>
+			<result name="input">
+				login.jsp
+			</result>
+		</action>
+		
+		
+		<action name="NewOrderAction" class="weath.action.NewOrderAction">
+			<result name="success">
+				match_order.jsp
+			</result>
+			<result name="input">
+				place_order.jsp
+			</result>
+		</action>
+		
+		<action name="MatchOrderAction" class="weath.action.MatchOrderAction">
+			<result name="success">
+				match_order.jsp
+			</result>
+		</action>
+		
+		<action name="MatchOrderAction222" class="weath.action.MatchOrderAction222">
+			<result name="success">
+				match_order.jsp
+			</result>
+		</action>
+		
+			<action name="BuyDerivativeAction" class="weath.action.BuyDerivativeAction">
+			<result name="success">
+				derivative_purchase.jsp
+			</result>
+			<result name="input">
+				derivative_purchase.jsp
+			</result>
+		</action>
+		<action name="SaleDerivativeAction" class="weath.action.SaleDerivativeAction">
+			<result name="success">
+				derivative_sell.jsp
+			</result>
+			<result name="input">
+				derivative_sell.jsp
+			</result>
+		</action>
+		<action name="ChangeUserInfo" class="weath.action.ChangeUserInfo">
+			<result name="success">
+				self_info_company.jsp
+			</result>
+			<result name="input">
+				self_info_company.jsp
+			</result>
+		</action>
+		<action name="CancelOrder" class="weath.action.CancelOrder">
+			<result name="success">
+				order_info.jsp
+			</result>
+			<result name="input">
+				order_info.jsp
+			</result>
+		</action>
+		
+		<action name="NewProfitAction" class="weath.action.NewProfitAction">
+			<result name="success">
+				profit.jsp
+			</result>
+			<result name="input">
+				profit.jsp
+			</result>
+		</action>
+		
+	</package>
+</struts>
